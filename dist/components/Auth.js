@@ -29,17 +29,17 @@ const Auth = () => {
   const [DashboardOpen, setDashboardOpen] = (0, _react.useState)(false);
   const [walAddress, setWalAddress] = (0, _react.useState)(null);
   const [asset, setAsset] = (0, _react.useState)([]);
-  return /*#__PURE__*/React.createElement(React.Fragment, null, mainOpen && /*#__PURE__*/React.createElement(_main.default, {
+  return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, mainOpen && /*#__PURE__*/_react.default.createElement(_main.default, {
     setMainOpen: setMainOpen,
     setEnsOpen: setEnsOpen,
     setAsset: setAsset,
     setWalAddress: setWalAddress
-  }), ensOpen && /*#__PURE__*/React.createElement(_ENSContainer.default, {
+  }), ensOpen && /*#__PURE__*/_react.default.createElement(_ENSContainer.default, {
     setEnsOpen: setEnsOpen,
     setDashboardOpen: setDashboardOpen,
     asset: asset,
     wAddress: walAddress
-  }), DashboardOpen && /*#__PURE__*/React.createElement(_dashboard.default, {
+  }), DashboardOpen && /*#__PURE__*/_react.default.createElement(_dashboard.default, {
     setDashboardOpen: setDashboardOpen,
     setMainOpen: setMainOpen
   }));

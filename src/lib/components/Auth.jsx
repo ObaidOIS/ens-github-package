@@ -1,5 +1,5 @@
 import './auth.css';
-import react from 'react';
+import React from 'react';
 import Main from './component/main';
 import ENSContainer from './component/ENSContainer';
 import Dashboard from './component/dashboard';
